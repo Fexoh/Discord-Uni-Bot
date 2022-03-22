@@ -1,7 +1,7 @@
 const { Client, Collection } = require("discord.js");
 const mysql = require("mysql")
-const sqlconf = require("./configs/database.json")
-const tokenconf = require("./configs/token.json")
+const sqlconf = require("./protectedconfigs/database.json")
+const tokenconf = require("./protectedconfigs/token.json")
 
 const client = new Client({
     intents: 32767,

@@ -1,6 +1,7 @@
 const { glob } = require("glob");
 const { promisify } = require("util");
 const { Client } = require("discord.js");
+const own_vc = require("../modules/own_vc");
 
 const globPromise = promisify(glob);
 
@@ -41,6 +42,8 @@ module.exports = async (client) => {
     });
     client.on("ready", async () => {
         await client.guilds.cache.get(client.config.guild).commands.set(arrayOfSlashCommands);
+
+        own_vc(client);
     });
 
 };

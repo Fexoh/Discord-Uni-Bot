@@ -1,6 +1,5 @@
 # configs
-configs/token.json
-configs/database.json
+protectedconfigs
 
 # Logs
 logs
