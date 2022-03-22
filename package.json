@@ -1,0 +1,30 @@
+{
+    "name": "djs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": [
+        {
+            "name": "Robin Wolff",
+            "website": "https://robin-w.de"
+        },
+        {
+            "name": "Angelo Longo",
+            "website": "https://github.com/Fexoh"
+        }
+    ],
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "discord.js": "^13.5.1",
+        "glob": "^7.1.7",
+        "moment": "^2.29.1",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.15"
+    }
+}
